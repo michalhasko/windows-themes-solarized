@@ -1,0 +1,77 @@
+; Author: Michal Hasko <michal@hasko.info>
+
+; Name of the theme
+[Theme]
+DisplayName=Solarized Light
+
+; The Solarized color definitions
+; SOLARIZED RGB        
+; --------- -----------
+; base03    0 43 54
+; base02    7 54 66
+; base01    88 110 117
+; base00    101 123 131
+; base0     131 148 150
+; base1     147 161 161
+; base2     238 232 213
+; base3     253 246 227
+; yellow    181 137 0
+; orange    203 75 22
+; red       220 50 47
+; magenta   211 54 130
+; violet    108 113 196
+; blue      38 139 210
+; cyan      42 161 152
+; green     133 153 0
+
+; The color theme
+[Control Panel\Colors]
+Scrollbar=247 243 234
+Background=253 246 227
+ActiveTitle=108 113 196
+InactiveTitle=238 232 213
+Menu=238 232 213
+Window=253 246 227
+WindowFrame=0 0 0
+MenuText=88 110 117
+WindowText=88 110 117
+TitleText=255 255 255
+ActiveBorder=88 110 117
+InactiveBorder=253 246 227
+AppWorkspace=253 246 227
+Hilight=108 113 196
+HilightText=255 255 255
+ButtonFace=238 232 213
+ButtonShadow=194 172 105
+GrayText=131 148 150
+ButtonText=88 110 117
+InactiveTitleText=88 110 117
+ButtonHilight=247 243 234
+ButtonDkShadow=64 64 64
+ButtonLight=238 232 213
+InfoText=88 110 117
+InfoWindow=255 255 225
+ButtonAlternateFace=181 181 181
+HotTrackingColor=38 139 210
+GradientActiveTitle=211 54 130
+GradientInactiveTitle=147 161 161
+MenuHilight=10 36 106
+MenuBar=212 208 200
+
+; Required section, do not remove
+[Control Panel\Desktop]
+Wallpaper=
+TileWallpaper=0
+WallpaperStyle=2
+Pattern=
+
+; Required section, do not remove
+[VisualStyles]
+Path=
+ColorStyle=@themeui.dll,-854
+Size=@themeui.dll,-2019
+Transparency=0
+
+; Required section, do not remove
+[MasterThemeSelector]
+MTSM=DABJDKT
